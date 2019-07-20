@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InternHub Java</string>
+    <string name="tab_text_1">OUTLINE</string>
+    <string name="tab_text_2">EXAMPLES</string>
+    <string name="intern_hub_header_image">InternHub header image</string>
+    <string name="java_curriculum">Internify Hub Java curriculum</string>
+    <string name="outline_intro">Welcome to Internify Hub Java curriculum</string>
+    <string name="examples_intro">Click on each button to see the examples we are going to look at for each of the topics.</string>
+</resources>
