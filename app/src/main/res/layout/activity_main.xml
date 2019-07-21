@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay"
-        android:background="@drawable/intern_hub_color">
+        android:background="@color/colorPrimary">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -29,7 +29,7 @@
             android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/intern_hub_color"
+            android:background="@color/colorPrimary"
             app:tabIndicatorColor="#FFEB3B" />
     </android.support.design.widget.AppBarLayout>
 

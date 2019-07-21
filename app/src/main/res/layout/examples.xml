@@ -31,12 +31,13 @@
 
         <Button
             android:id="@+id/JavaIO"
-            android:layout_width="300dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="64dp"
             android:layout_marginTop="24dp"
             android:layout_marginEnd="64dp"
-            android:background="@drawable/intern_hub_color"
+            android:background="@color/colorPrimary"
+            android:onClick="moveToJavaIOE"
             android:text="JAVA I/O"
             android:textColor="#FFEB3B"
             android:textSize="18sp"
@@ -47,12 +48,13 @@
 
         <Button
             android:id="@+id/ClassesAndObjects"
-            android:layout_width="300dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="64dp"
             android:layout_marginTop="24dp"
             android:layout_marginEnd="64dp"
-            android:background="@drawable/intern_hub_color"
+            android:background="@color/colorPrimary"
+            android:onClick="moveToClassObjE"
             android:text="Classes and Objects"
             android:textColor="#FFEB3B"
             android:textSize="18sp"
@@ -63,12 +65,13 @@
 
         <Button
             android:id="@+id/CtrlStatements"
-            android:layout_width="300dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="64dp"
             android:layout_marginTop="24dp"
             android:layout_marginEnd="64dp"
-            android:background="@drawable/intern_hub_color"
+            android:background="@color/colorPrimary"
+            android:onClick="moveToCtrlE"
             android:text="Control Statements"
             android:textColor="#FFEB3B"
             android:textSize="18sp"
@@ -79,12 +82,13 @@
 
         <Button
             android:id="@+id/Arrays"
-            android:layout_width="300dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="64dp"
             android:layout_marginTop="24dp"
             android:layout_marginEnd="64dp"
-            android:background="@drawable/intern_hub_color"
+            android:background="@color/colorPrimary"
+            android:onClick="moveToArraysE"
             android:text="Arrays"
             android:textColor="#FFEB3B"
             android:textSize="18sp"
@@ -95,12 +99,13 @@
 
         <Button
             android:id="@+id/Inheritance"
-            android:layout_width="300dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="64dp"
             android:layout_marginTop="24dp"
             android:layout_marginEnd="64dp"
-            android:background="@drawable/intern_hub_color"
+            android:background="@color/colorPrimary"
+            android:onClick="moveToInheritanceE"
             android:text="Inheritance"
             android:textColor="#FFEB3B"
             android:textSize="18sp"
@@ -111,12 +116,13 @@
 
         <Button
             android:id="@+id/Polymorphism"
-            android:layout_width="300dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="64dp"
             android:layout_marginTop="24dp"
             android:layout_marginEnd="64dp"
-            android:background="@drawable/intern_hub_color"
+            android:background="@color/colorPrimary"
+            android:onClick="moveToPolyE"
             android:text="Polymorphism"
             android:textColor="#FFEB3B"
             android:textSize="18sp"
@@ -127,13 +133,14 @@
 
         <Button
             android:id="@+id/Exception"
-            android:layout_width="300dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="64dp"
             android:layout_marginTop="24dp"
             android:layout_marginEnd="64dp"
             android:layout_marginBottom="64dp"
-            android:background="@drawable/intern_hub_color"
+            android:background="@color/colorPrimary"
+            android:onClick="moveToExceptE"
             android:text="Exceptions"
             android:textColor="#FFEB3B"
             android:textSize="18sp"
@@ -142,8 +149,6 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Polymorphism" />
-
-
 
     </android.support.constraint.ConstraintLayout>
 </ScrollView>
